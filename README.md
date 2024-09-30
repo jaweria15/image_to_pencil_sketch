@@ -5,7 +5,6 @@ This project is a simple web application that allows users to upload an image an
 ## Features
 
 - Upload any image (JPEG/PNG) and convert it to a pencil sketch.
-- Real-time image preview before conversion.
 - Simple, user-friendly interface.
 - Download the converted sketch image.
 
