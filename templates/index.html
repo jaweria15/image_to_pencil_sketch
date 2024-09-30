@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image to Pencil Sketch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Convert Image to Pencil Sketch</h1>
+        <p>Upload your image and turn it into a beautiful pencil sketch with one click!</p>
+
+        <form id="uploadForm" action="/" method="POST" enctype="multipart/form-data">
+            <div class="upload-box">
+                <input type="file" name="image" id="image" accept="image/*" required>
+                <button type="submit">Upload Image</button>
+            </div>
+        </form>
+
+        <div id="output" class="output-container">
+            <h2>Your Pencil Sketch</h2>
+            <img id="sketchImage" alt="Your pencil sketch will appear here">
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
+</body>
+</html>
