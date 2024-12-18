@@ -30,5 +30,5 @@ This project is a simple web application that allows users to upload an image an
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/image-to-pencil-sketch.git
+git clone https://github.com/jaweria15/image-to-pencil-sketch.git
 cd image-to-pencil-sketch
